@@ -1,0 +1,68 @@
+Datetime,Preprocessing,Model,Score
+2024-11-26 14:10:02,N/A,LinearRegression(),0.804
+2024-11-26 14:10:03,N/A,"RandomForestClassifier(max_depth=10, n_estimators=1000)",0.832
+2024-11-26 14:11:43,N/A,"<Sequential name=sequential_1, built=True>",0.799
+2024-11-26 14:12:49,"ColumnTransformer(transformers=[('num', SimpleImputer(strategy='constant'),
+                                 ['Pclass', 'Age', 'SibSp', 'Parch', 'Fare',
+                                  'Cabin']),
+                                ('cat',
+                                 Pipeline(steps=[('imputer',
+                                                  SimpleImputer(strategy='most_frequent')),
+                                                 ('onehot',
+                                                  OneHotEncoder(handle_unknown='ignore',
+                                                                sparse_output=False))]),
+                                 ['Sex', 'Embarked'])])",N/A,N/A
+2024-11-26 15:01:21,N/A,"layers = 10, act = swish, node = 256 dropout = 0.5",0.777
+2024-11-26 15:06:35,N/A,"layers = 10, act = swish, node = 256 dropout = 0.5",0.793
+2024-11-26 15:26:55,N/A,"layers = 20, act = swish, node = 256 dropout = 0.5",0.615
+2024-11-26 15:27:29,N/A,"layers = 5, act = swish, node = 256 dropout = 0.5",0.816
+2024-11-26 15:27:56,N/A,"layers = 3, act = swish, node = 256 dropout = 0.5",0.743
+2024-11-26 15:28:18,N/A,"layers = 4, act = swish, node = 256 dropout = 0.5",0.777
+2024-11-26 15:28:59,N/A,"layers = 5, act = swish, node = 256 dropout = 0.5",0.816
+2024-11-26 15:29:20,N/A,"layers = 6, act = swish, node = 256 dropout = 0.5",0.804
+2024-11-26 15:29:53,N/A,"layers = 6, act = relu, node = 256 dropout = 0.5",0.816
+2024-11-27 09:50:59,"ColumnTransformer(transformers=[('num', SimpleImputer(strategy='constant'),
+                                 ['Pclass', 'Age', 'SibSp', 'Parch', 'Fare',
+                                  'Cabin']),
+                                ('cat',
+                                 Pipeline(steps=[('imputer',
+                                                  SimpleImputer(strategy='most_frequent')),
+                                                 ('onehot',
+                                                  OneHotEncoder(handle_unknown='ignore',
+                                                                sparse_output=False))]),
+                                 ['Sex', 'Embarked'])])",N/A,N/A
+2024-11-27 09:51:00,N/A,LinearRegression(),0.804
+2024-11-27 09:51:01,N/A,"RandomForestClassifier(max_depth=10, n_estimators=1000)",0.832
+2024-11-27 09:51:24,N/A,"layers = 6, act = relu, node = 256 dropout = 0.5",0.799
+2024-11-27 09:53:55,N/A,LinearRegression(),0.804
+2024-11-27 09:54:56,N/A,LinearRegression(),0.804
+2024-11-27 09:55:57,N/A,LinearRegression(),0.804
+2024-11-27 09:56:30,N/A,LinearRegression(),0.804
+2024-11-27 09:57:21,N/A,LinearRegression(),0.804
+2024-11-27 10:01:02,"ColumnTransformer(transformers=[('num', SimpleImputer(strategy='constant'),
+                                 ['Pclass', 'Age', 'SibSp', 'Parch', 'Fare',
+                                  'Cabin']),
+                                ('cat',
+                                 Pipeline(steps=[('imputer',
+                                                  SimpleImputer(strategy='most_frequent')),
+                                                 ('onehot',
+                                                  OneHotEncoder(handle_unknown='ignore',
+                                                                sparse_output=False))]),
+                                 ['Sex', 'Embarked'])])",N/A,N/A
+2024-11-27 10:01:02,N/A,LinearRegression(),0.804
+2024-11-27 10:01:04,N/A,"RandomForestClassifier(max_depth=10, n_estimators=1000)",0.838
+2024-11-27 10:01:22,N/A,"layers = 6, act = relu, node = 256 dropout = 0.5",0.799
+2024-11-27 10:05:04,"ColumnTransformer(transformers=[('num', SimpleImputer(strategy='constant'),
+                                 ['Pclass', 'Age', 'SibSp', 'Parch', 'Fare',
+                                  'Cabin']),
+                                ('cat',
+                                 Pipeline(steps=[('imputer',
+                                                  SimpleImputer(strategy='most_frequent')),
+                                                 ('onehot',
+                                                  OneHotEncoder(handle_unknown='ignore',
+                                                                sparse_output=False))]),
+                                 ['Sex', 'Embarked'])])",N/A,N/A
+2024-11-27 10:05:04,N/A,LinearRegression(),0.804
+2024-11-27 10:05:06,N/A,"RandomForestClassifier(max_depth=10, n_estimators=1000)",0.832
+2024-11-27 10:05:24,N/A,"layers = 6, act = relu, node = 256 dropout = 0.5",0.793
+2024-11-27 13:09:57,N/A,"RandomForestClassifier(max_depth=10, n_estimators=1000)",0.844
